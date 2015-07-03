@@ -1,4 +1,4 @@
-require 'fiber'
+# a state machine that does not use Fibers
 
 class Turnstile
   def initialize
