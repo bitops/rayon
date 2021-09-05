@@ -16,7 +16,7 @@ class Turnstile
   
   def push
     if unlocked?
-      puts "Have a nice time!"
+      puts "Welcome!"
       lock!
     else
       nil
