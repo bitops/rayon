@@ -3,9 +3,9 @@ require 'fiber'
 f1 = Fiber.new do
   puts "fiber: Start doing stuff."
   Fiber.yield
-  puts "fiber: We can still do more stuff."
+  puts "fiber: We are still doing stuff."
   Fiber.yield
-  puts "fiber: Do the last thing, now we're dead."
+  puts "fiber: Finished doing stuff, now resting."
 end
 
 puts "outer: Start running the fiber."
